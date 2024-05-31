@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f0f8ff;
+    color: #333;
+}
+h1 {
+    color: #444;
+    margin-bottom: 40px;
+}
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #ddd;
+}
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#scoreboard {
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+#scoreboard p {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#userScore {
+    
+    color: #155724;
+}
+#computerScore {
+    
+    color: #333;
+}
+#draws {
+   
+    color: #721c24;
+}
+.reset-button {
+    padding: 10px 20px;
+    font-size: 19px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f48378;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.reset-button:hover {
+    background-color: #e63946;
+}
+@media (max-width: 600px) {
+    #scoreboard {
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #scoreboard p {
+        margin: 5px 0;
+        padding: 5px;
+        
+    }
+}
